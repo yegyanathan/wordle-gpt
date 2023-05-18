@@ -1,0 +1,18 @@
+<div class="topic-container">
+    <h3>Type in a topic</h3>
+    <p> and let ChatGPT craft the target word.</p>
+    <div class="input-container">
+        <input #input>
+        <button (click)="onClick()"></button>
+    </div>
+    <div class="examples">
+        <example-topic [topic]="'Retail Banking'"></example-topic>
+        <example-topic [topic]="'Operational Risk'"></example-topic>
+        <example-topic [topic]="'Web Development'"></example-topic>
+    </div>
+    <div class="examples">
+        <example-topic [topic]="'Artificial Intelligence'"></example-topic>
+        <example-topic [topic]="'Business Intelligence'"></example-topic>
+    </div>
+</div>
+

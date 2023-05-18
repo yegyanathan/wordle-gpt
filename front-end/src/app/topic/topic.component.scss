@@ -1,0 +1,90 @@
+$color-red: rgb(212, 28, 44);
+$color-yellow: rgb(252, 204, 68);
+$color-white: rgb(255, 255, 255);
+$font-family: Wells Fargo Sans Regular,Arial,Helvetica,"sans-serif";;
+
+.topic-container{
+    top: 25%;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    h3{
+        font-size: 56px;
+        margin: 0 0 20px 0;
+        font-family: $font-family;
+        overflow-wrap: break-word;
+        line-break: 1.107;
+        font-weight: lighter;
+    }
+    
+    p{
+        margin: 0 0 50px 0;
+        font-size: 20px;
+        font-family: $font-family;
+        font-weight: lighter;
+    }
+    
+    .input-container {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        background-color: $color-white;
+        height: 30px;
+        width: 400px;
+        margin: 0 0 30px 0;
+        padding: 15px;
+        box-shadow: 0px 0px 7px 3px #211f1f;
+        overflow: hidden;
+        border-radius: 30px;
+        
+        input{
+            height: 30px;
+            width: 370px;
+            margin: 0;
+            padding: 0;
+            resize: none;
+            overflow-y: hidden;
+            outline: none;
+            border-color: transparent;
+            background-color: transparent;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    
+        button{
+            width: 30px;
+            height: 30px;
+            margin: 0;
+            padding: 0;
+            border-radius: 50%;
+            border-color: transparent;
+            background-image: url("/assets/send.png");
+            cursor: pointer;
+            background-size: 50%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: transparent;
+    
+        }
+    
+        button:hover{
+            background-color: rgb(163, 151, 151);
+        }
+    
+    }
+    .examples{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0 10px 0;
+
+    }
+
+}
